@@ -1,0 +1,8 @@
+<!--pages/template/template.wxml-->
+<!-- 引入 用单标签 src 导入-->
+<import src="../../template1/template1.wxml"/>
+<!-- 使用模板 -->
+<!-- <tempalte is="template1" /> -->
+<template is="template1" data="{{...person}}" />
+
+

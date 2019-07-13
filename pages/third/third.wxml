@@ -1,0 +1,14 @@
+<!--pages/third/third.wxml-->
+<view>
+  <text>我是third页面</text>
+  <!-- 传参要通过 data-属性名来设置，获取值是e.target.dataset.属性 -->
+  <view bindtap='tapme' data-name="敏敏特穆尔" data-age="22" class='parent'>
+  <!-- <view bindtap='tapchild1' data-id="1001" data-name="魏无羡" class="child1"></view>
+  <view bindtap='tapchild2' data-id="1002" data-name="蓝忘机" class="child2"></view> -->
+
+  <!-- 注册事件用 bind ； 阻止事件冒泡 ，使用 catch 即可-->
+  <view catchtap='tapchild1' data-id="1001" data-name="魏无羡" class="child1"></view>
+  <view catchtap='tapchild2' data-id="1002" data-name="蓝忘机" class="child2"></view>
+  </view>
+  
+</view>

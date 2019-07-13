@@ -1,0 +1,8 @@
+<!--components/components1/components1.wxml-->
+<view>
+<text>我是组件1</text>
+<!-- 直接调用组件中的默认数据 -->
+<view>{{msg}}</view>
+<view>{{name}}--{{age}}--{{mattor}}</view>
+<button bindtap='sendPage'>组件传值给页面</button>
+</view>

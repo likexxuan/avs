@@ -1,0 +1,8 @@
+
+<template name="template1">
+<view>
+<text>我是模板1</text>
+<text class='goodman'>{{name}}你是个好人</text>
+<text>{{matto}}</text>
+</view>
+</template>

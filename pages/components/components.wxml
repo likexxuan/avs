@@ -1,0 +1,6 @@
+<!--pages/components/components.wxml-->
+<view>
+<!-- 触发myevent 事件时  调用 getPage 方法-->
+<components1 bind:myevent="getPage" name="{{name}}" mattor="{{mattor}}" age="{{age}}" />
+</view>
+

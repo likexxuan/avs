@@ -1,0 +1,21 @@
+<!--pages/test/test.wxml-->
+<text>{{msg}}</text>
+<view wx:if="{{score>80}}">优秀</view>
+<view wx:elif="{{score>70}}">良好</view>
+<view wx:else="{{score>60}}">及格</view>
+
+
+<view wx:if="{{isShow}}">if显示</view>
+<!-- hidden 这里取反 才会显示 -->
+<view hidden="{{!isShow}}">hidden隐藏</view>
+
+
+<block wx:for="{{persons}}" wx:for-item="person" wx:key="{{person.id}}">
+<view>{{person.id}}---{{person.name}}</view>
+</block>
+
+
+
+
+
+
